@@ -1,0 +1,10 @@
+services:
+  database:
+    image: mongo
+    tty  : true
+    ports:
+      - "27017:27017"
+    volumes:
+      - "journal-app:/data/db:rw"
+volumes:
+  journal-app:
