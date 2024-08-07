@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: journal-application-backend
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: "Journal-Application"
+      auto-index-creation: true

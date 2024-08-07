@@ -2,7 +2,6 @@ package com.varunmatangi.journalApplication.Controllers;
 
 import com.varunmatangi.journalApplication.Entities.JournalEntity;
 import com.varunmatangi.journalApplication.Services.JournalEntityService;
-import jakarta.annotation.PostConstruct;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
